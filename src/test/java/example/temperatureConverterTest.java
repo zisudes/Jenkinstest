@@ -6,6 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class temperatureConverterTest {
 
+    temperatureConverter temperatureConverter = new temperatureConverter();
+
     @org.junit.jupiter.api.Test
     void fahrenheitToCelsius() {
         assertEquals(0, temperatureConverter.fahrenheitToCelsius(32),0.01);
